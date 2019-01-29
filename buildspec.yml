@@ -10,7 +10,15 @@ phases:
 
 artifacts:
     files:
-        - '**/*'
+        - '**/*.html'
+        - '**/*.js'
+        - '**/*.css'
+        - '**/*.ico'
+        - '**/*.svg'
+        - '**/*.eot'
+        - '**/*.ttf'
+        - '**/*.woff'
+        - '**/*.woff2'
     discard-paths: yes
     base-directory: 'dist/picsapp*'
     
