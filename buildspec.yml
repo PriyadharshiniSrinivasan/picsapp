@@ -14,6 +14,5 @@ artifcats:
     - '**/*.js'
     - '**/*.css'
     - '**/*.ico'
-  discard-paths: yes
   base-directory: 'dist/picsapp'
     
