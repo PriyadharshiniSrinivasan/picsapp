@@ -8,8 +8,9 @@ phases:
       commands:
         - npm run build:ci
 
-artifcats:
-  files:
-    - '**/*'
-  base-directory: 'dist/picsapp'
+artifacts:
+    files:
+        - '**/*'
+    discard-paths: yes
+    base-directory: 'dist*'
     
