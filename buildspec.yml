@@ -7,7 +7,7 @@ phases:
     build:
       commands:
         - npm run build:ci
-        
+
 artifcats:
   files:
     - '**/*.html'
@@ -15,5 +15,5 @@ artifcats:
     - '**/*.css'
     - '**/*.ico'
   discard-paths: yes
-  base-directory: 'dist'
+  base-directory: 'dist/picsapp'
     
