@@ -10,9 +10,6 @@ phases:
 
 artifcats:
   files:
-    - '**/*.html'
-    - '**/*.js'
-    - '**/*.css'
-    - '**/*.ico'
+    - '**/*'
   base-directory: 'dist/picsapp'
     
