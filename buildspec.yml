@@ -7,12 +7,13 @@ phases:
     build:
       commands:
         - npm run build:ci
-    artifcats:
-      files:
-        - '**/*.html'
-        - '**/*.js'
-        - '**/*.css'
-        - '**/*.ico'
-      discard-paths: yes
-      base-directory: 'dist'
+        
+artifcats:
+  files:
+    - '**/*.html'
+    - '**/*.js'
+    - '**/*.css'
+    - '**/*.ico'
+  discard-paths: yes
+  base-directory: 'dist'
     
